@@ -1,6 +1,6 @@
 ---
-# tasks file for azure-virtualmachine
-- name: Run creation of VM in Azure
-  ansible.builtin.include_tasks: vm_create.yml
-  loop: "{{ vm }}"
+# tasks file for azure-iothub
+- name: Run Azure IoT Hub create task(s)
+  ansible.builtin.include_tasks: iothub_create.yml
+  loop: "{{ iothub }}"
 

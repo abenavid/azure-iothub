@@ -8,3 +8,17 @@ Azure IoT Hub supports a variety of communication protocols, including HTTPS, MQ
 With Azure IoT Hub, users can connect and manage millions of devices, monitor device health and performance, and analyze data from IoT devices to gain valuable insights and take appropriate actions. It can also integrate with other Azure services, such as Azure Stream Analytics and Azure Functions, to enable real-time processing and automated actions based on IoT data.
 
 Overall, Azure IoT Hub simplifies IoT device management, enhances security, and enables efficient data processing and analysis, making it an integral part of any IoT solution.
+
+## Requirements
+
+Runs on local connection and requires the azure python sdk on ansible host.
+
+## Dependencies
+
+## Ansible Tags
+
+## Role Variables
+
+## License
+
+## Change Log
