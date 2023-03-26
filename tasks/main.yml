@@ -1,0 +1,6 @@
+---
+# tasks file for azure-virtualmachine
+- name: Run creation of VM in Azure
+  ansible.builtin.include_tasks: vm_create.yml
+  loop: "{{ vm }}"
+
