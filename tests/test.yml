@@ -1,4 +1,11 @@
 ---
 - hosts: localhost
+
+  pre_tasks:
+    - name: Create resource group
+      azure.azcollection.azure_rm_resourcegroup:
+        name: "{{ resource_group_name }}"
+        location: "{{ region }}"
+
   roles:
     - ../..
